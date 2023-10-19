@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Akaya Telivigala';
+}
+#navbar{
+    background-color: #af2828;
+    padding: 17px 10px;
+    font-size: 22px;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 12px 30px;
+    color: white;
+}
+#navbar li a:hover{
+    color: black;
+}
+#logo{
+    display: flex;
+    margin: 0px 14px;
+    align-items: center;
+    color: white;
+}
+#logo img{
+    height: 43px;
+    filter: invert(1);
+
+}
+#intro{
+    height: 418px;
+    background: url(/static/dance.jpg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover ;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 65px;
+    align-items: center;
+}
+#intro div.small {
+    font-size: 42px;
+    padding: 5px;
+}
+
+#mission{
+    height: 300px;
+    background-color: white;
+    margin: auto;
+    width: 67%;
+
+}
+#mission h2{
+    text-align: center;
+    padding-top: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.card{
+    height: 204px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 22px 16px;
+    display: inline-block;
+}
+.card h3{
+    text-align: center;
+    margin: 0 12px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+.card-img{
+    height: 90px;
+    padding: 0px 14px;
+    margin: 5px 77px
+} 
+.card-img img{
+    height: inherit;
+}
+.card-content{
+    padding: 0 24px;
+
+}  
+.card-content p{
+    font-size: 17px;
+} 
+#sponsor{
+    height: 300px;
+    background-color: #a9605b;
+
+}
+#sponsor h2{
+    text-align: center;
+    padding-top: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#sponsors{
+    height: 150px;
+    max-width: 1000px;
+    margin: 29px 370px;
+}
+.spimage{
+    height: 80%;
+    margin: 20px;
+
+}
+#footer{
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-family: sans-serif;
+}
